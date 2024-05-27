@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.container {
+    display: grid;
+    place-items: center;
+    background-color: white;
+    height: 100vh;
+    gap: 0px;
+}
+
+.image {
+    width: 50%;
+}
+
+.description h1 {
+    font-family: 'Bungee', sans-serif;
+    font-size: 40px;
+}
+
+.capaimg {
+    width: 100%;
+    margin: 50px;
+    margin-left: 6px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative; /* Permite o posicionamento absoluto dos botões */
+}
+
+.buttonStart {
+    background-color: #91710a;
+    border: none;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute; /* Posição absoluta para centralização */
+    left: 50%; /* Posiciona no meio do contêiner */
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+}
+
+.buttonBack {
+    background-color: #91710a;
+    border: none;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: auto;
+}
+
+.readButton {
+    background-color: #91710a;
+    border: none;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: auto;
+}
+
+.buttonStart:hover, .readButton:hover, .buttonBack:hover {
+    background-color: #4b3e15;
+}
+
+.buttonStart:active, .readButton:active, .buttonBack:active {
+    background-color: #695309;
+}
+
+.thanks h1 {
+    font-family: 'Bungee', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 1px;
+}

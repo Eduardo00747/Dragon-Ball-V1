@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.container {
+    display: grid;
+    place-items: center; /* Centraliza os itens tanto horizontalmente quanto verticalmente */
+    background-color: white; /* Define a cor de fundo como branca */
+    height: 100vh; /* Define a altura do container para centralização vertical */
+    gap: 0px; /* Adiciona um espaço entre os itens do grid */
+
+    .image {
+        width: 50%; /* Define a largura da imagem para ocupar 42% da largura do container */
+    }
+
+    .description h1{
+        font-family: 'Bungee', sans-serif;
+        font-size: 40px;
+    }
+
+    .capaimg{
+        width: 50%; /* Define a largura da imagem para ocupar 42% da largura do container */
+        margin: 50px;
+        margin-left: 430px;   
+    }
+
+    .readButton {
+        background-color: #91710a; /* Cor de fundo verde */
+        border: none;
+        color: white;
+        padding: 15px 62px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 40px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .readButton:hover{
+        background-color: #4b3e15;
+        color:#ffffff;
+    }
+
+    .readButton:active {
+        background-color: #695309; /* Cor quando o botão é clicado */
+        color: #ffffff;
+    }
+
+    .thanks h1{
+        font-family: 'Bungee', sans-serif;
+        font-size: 17px;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 40px;
+    }
+}
